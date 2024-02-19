@@ -1,0 +1,489 @@
+.white-background {
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+    margin: 0 auto;
+    object-fit: cover;
+    border: radius 10%;
+    
+}
+  
+
+.left-images {
+    float: left; /* Ajoutez cette propriété pour aligner l'image à gauche */
+    margin-right: 20px; /* Ajoutez une marge à droite si nécessaire */
+}
+
+.lien {
+    background-color: rgb(57, 57, 126) ;
+    color: #fff;
+    height: 19px; 
+    padding: 10px;
+    text-align: center;
+    width: 40%; 
+    margin: 0 auto;
+    object-fit: cover;
+    border: radius 40%; ;
+  }
+  body{
+    background-color:  rgb(235, 241, 243);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav a {
+    color: hsl(120, 24%, 90%);
+    text-decoration: none;
+    margin: 0 20px; /* Ajustez selon vos besoins */
+  }
+  
+.left-image {
+    color: rgb(57, 57, 126) ;
+    text-align: left;
+    margin-right: auto; /* Push the image to the left */
+}
+
+.lien-right{
+        display: flex;
+        justify-content: right;
+        align-items: flex-end;
+}
+.lien-right a {
+color: blue;
+text-decoration: none;
+margin:0 20px;
+
+}
+
+.centrer-image {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.rectangle-violet {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(235, 241, 243);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contenu-violet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.texte {
+    color:black;
+}
+
+img {
+    max-width: 60%;
+    height: auto;
+    text-align: center;
+}
+
+.conteneur-parent {
+    text-align: center;
+}
+
+.commencer, .mon-reseau {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    color: blue;
+}
+.commencer{
+    background-color: blue;
+    color: white;
+    margin-right: 50px;
+   
+}
+
+
+
+.mon-reseau{
+
+    border: 2px solid blue;
+   
+}
+
+
+
+
+
+
+
+
+
+.rectangle-bleu {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(57, 57, 126);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenu-bleu {
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.rectangle-rgb {
+    width: 100%;
+    height: calc(100vh - 80vh); /* Calcul de la hauteur restante (100% - hauteur du rectangle bleu) */
+    background-color: rgb(235, 241, 243); /* Couleur RGB spécifique */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    color: blue;
+}
+
+.centrer-image {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.rectangle-violet {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(235, 241, 243);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contenu-violet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.texte {
+    color: black;
+}
+
+img {
+    max-width: 60%;
+    height: auto;
+}
+
+
+.container1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.start-icon {
+    background-color: blue; /* Ajout de la couleur d'arrière-plan bleue */
+    padding: 10px; /* Ajout de rembourrage pour l'icône de départ */
+    margin-right: 400px; /* Ajout de marge à droite pour l'espace entre Commencer et Mon Reseau */
+    color: #fff;
+    align-items: center;
+   
+}
+
+.network-container {
+    border: 2px solid blue;
+    color: blue;
+    padding: 9px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.network-icon {
+    /* Ajoutez le style pour votre icône réseau ici */
+    margin-right: 10px;
+    color: blue;
+}
+
+
+
+.rectangle-bleu {
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(57, 57, 126);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenu-bleu {
+    text-align: center;
+    width: 80%;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+
+
+.ligne-centrale-container1 {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.ligne-centrale1 {
+    display: inline-block;
+    width: 30%;
+    border-bottom: 4px solid rgb(57, 57, 126);
+    margin-bottom: 30px;
+}
+
+.texte-bleu1 {
+    display: inline-block;
+    vertical-align: middle; /* Aligner verticalement le texte au centre de la ligne */
+    margin-left: 10px; /* Ajuster la marge selon vos préférences */
+    margin-right: 10px; /* Ajuster la marge selon vos préférences */
+    color: rgb(57, 57, 126);
+}
+
+
+.image-container {
+    display: flex;
+    -ms-flex-align: center;
+    max-width: 900px; /* Ajustez la largeur maximale selon vos besoins */
+    width: 400%;
+    padding: 70px;
+    box-sizing: border-box;
+    background-color: aqua; /* Couleur de fond du conteneur d'images */
+    margin: auto; /* Centre le conteneur horizontalement */
+
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centre les images horizontalement dans leur conteneur */
+    
+}
+
+
+.container {
+    padding: 20px; /* Espace intérieur du conteneur */
+    box-sizing: border-box;
+    
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px; /* Ajustez la largeur maximale selon vos besoins */
+    width: 100%;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centre les images horizontalement dans leur conteneur */
+    
+}
+
+
+.ligne-centrale-container4 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.ligne-centrale4 {
+    display: inline-block;
+    width: 30%;
+    border-bottom: 4px solid rgb(57, 57, 126);
+    margin-bottom: 30px;
+}
+
+.texte-bleu4 {
+    display: inline-block;
+    vertical-align: middle; /* Aligner verticalement le texte au centre de la ligne */
+    margin-left: 10px; /* Ajuster la marge selon vos préférences */
+    margin-right: 10px; /* Ajuster la marge selon vos préférences */
+    color: rgb(57, 57, 126);
+}
+
+
+.container7 {
+    text-align: center;
+}
+
+.image-container7 {
+    display: inline-block;
+    margin-right: 20px; /* Ajustez cette valeur pour régler l'espace entre les images */
+    text-align: center;
+    
+    position: relative;
+    
+
+}
+
+.image1 {
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur du conteneur */
+}
+
+.info1{
+    margin-top: 10px;
+  
+}
+
+/* Ajoutez un contour noir autour de chaque .info */
+.image-container7 .info {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+
+
+.ligne-centrale-container5 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.ligne-centrale5 {
+    display: inline-block;
+    width: 30%;
+    border-bottom: 4px solid rgb(57, 57, 126);
+    margin-bottom: 30px;
+}
+
+.texte-bleu5 {
+    display: inline-block;
+    vertical-align: middle; /* Aligner verticalement le texte au centre de la ligne */
+    margin-left: 10px; /* Ajuster la marge selon vos préférences */
+    margin-right: 10px; /* Ajuster la marge selon vos préférences */
+    color: rgb(57, 57, 126);
+}
+
+
+
+
+
+
+
+
+
+
+.ligne-centrale4 {
+    width: 30%;
+    margin: 0 auto;
+    border-bottom: 2px solid blue;
+    margin-bottom: 20px;
+  }
+
+  .texte-bleu {
+    color: blue;
+    text-align: center;
+  }
+
+
+
+  .container77 {
+    background-color:rgb(57, 57, 126); /* Couleur de fond blanche du formulaire */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    margin: 60px;;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    color: #fff;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical; /* Permet le redimensionnement vertical du champ de texte */
+}
+
+
+.rectangle-black {
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ajout pour centrer verticalement */
+}
+
+.contenu-black {
+    display: flex;
+    justify-content: space-between; /* Ajout pour séparer texte21 et texte20 */
+    width: 80%; /* Ajout pour définir la largeur du contenu */
+}
+
+.texte21,
+.texte20 {
+    width: 48%; /* Ajout pour définir la largeur de chaque texte */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Ajustez la marge selon vos besoins */
+}
+
+.icon {
+    font-size: 24px;
+    color: white;
+    margin: 0 10px; /* Espace entre les icônes */
+}
+
+
+
+
+/* Ajout de styles pour le footer */
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+
